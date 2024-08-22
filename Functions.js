@@ -1,7 +1,5 @@
 const { default: axios } = require("axios");
 const fs = require("fs");
-const path = require("path");
-const apiKey = "dq8tYKFdG7w9rO77nfhMiQcOhuSR79bs";
 async function fetchSite(domain) {
   try {
     let response = await axios.get(`https://${domain}`);

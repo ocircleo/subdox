@@ -1,7 +1,7 @@
 {
   "name": "subdox",
   "version": "1.0.0",
-  "description": "",
+  "description": "An nodejs tool for finding subdomain using securitytrails.com",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,11 +11,15 @@
     "subdox": "./index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "salman",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.7.4",
     "commander": "^12.1.0",
     "nexe": "^4.0.0-rc.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocircleo/subdox"
   }
 }
