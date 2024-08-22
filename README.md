@@ -1,5 +1,5 @@
 
-```markdown
+
 # subdox
 
 `subdox` is a powerful CLI tool for managing and discovering domain information. With a range of commands, `subdox` simplifies domain discovery, API key management, and more.
@@ -87,4 +87,3 @@ For more details, check out the [GitHub repository](https://github.com/ocircleo/
 ## License
 
 This project is licensed under the MIT License.
-```
