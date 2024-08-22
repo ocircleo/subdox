@@ -31,8 +31,9 @@ async function getSubDomainData(domain, keys, index) {
       return sortDomains(subdomains, domain);
     })
     .catch(async (error) => {
-      console.log("Error happened");
-      return await getSubDomainData(domain, keys, index++);
+      console.log("Error happened try resting api key \n Trying with next api key");
+      let nextApi = index + 1;
+      return await getSubDomainData(domain, keys, nextApi);
     });
 }
 async function ReadFile() {

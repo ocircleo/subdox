@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ocircleo/subdox"
+    "url": "git+https://github.com/ocircleo/subdox.git"
   }
 }

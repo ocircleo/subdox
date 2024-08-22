@@ -45,6 +45,15 @@ subdox [options] [command]
   subdox test
   ```
 
+First of all you need an api key from : https://securitytrails.com/app/account/credentials
+create account there, copy their api key  and the follow the steps below
+
+- **Add an API key:**
+
+  ```bash
+  subdox add-api-key API_KEY
+  ```
+
 - **Find a domain using a name file:**
 
   ```bash
@@ -55,12 +64,6 @@ subdox [options] [command]
 
   ```bash
   subdox find-st example.com
-  ```
-
-- **Add an API key:**
-
-  ```bash
-  subdox add-api-key your-api-key
   ```
 
 - **Remove an API key:**
@@ -80,6 +83,7 @@ subdox [options] [command]
   ```bash
   subdox all-api-key
   ```
+ **You can add multiple api keys max quota is 50 per month per api key from free plan**
 
 ## Repository
 
@@ -90,3 +94,8 @@ For more details, check out the [GitHub repository](https://github.com/ocircleo/
 This project is licensed under the MIT License.
 
 Author: Salman Hossain
+
+email:
+``` bash
+ salmanhossain11222626@gmail.com
+```
