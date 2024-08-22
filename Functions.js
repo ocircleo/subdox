@@ -8,7 +8,7 @@ async function fetchSite(domain) {
     }
   } catch (error) {
   } finally {
-    return console.log("ended function");
+    return;
   }
 }
 function sortDomains(domains, rootDomain) {

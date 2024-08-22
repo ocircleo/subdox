@@ -1,6 +1,6 @@
 
 
-# subdox v-1.0.2
+# subdox v-1.0.3
 
 `subdox` is a powerful CLI tool for managing and discovering domain information. With a range of commands, `subdox` simplifies domain discovery, API key management, and more.
 
@@ -53,17 +53,16 @@ create account there, copy their api key  and the follow the steps below
   ```bash
   subdox add-api-key API_KEY
   ```
-
-- **Find a domain using a name file:**
-
-  ```bash
-  subdox find example.com
-  ```
-
-- **Find a domain using SecurityTrails:**
+- **Find a domain using SecurityTrails: (Recommended)**
 
   ```bash
   subdox find-st example.com
+  ```
+
+- **Find a domain using a name file: api key not needed (slow)**
+
+  ```bash
+  subdox find example.com
   ```
 
 - **Remove an API key:**

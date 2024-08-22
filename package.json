@@ -1,6 +1,6 @@
 {
   "name": "subdox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An nodejs tool for finding subdomain using securitytrails.com",
   "main": "index.js",
   "scripts": {
