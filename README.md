@@ -1,6 +1,6 @@
 
 
-# subdox
+# subdox v-1.0.2
 
 `subdox` is a powerful CLI tool for managing and discovering domain information. With a range of commands, `subdox` simplifies domain discovery, API key management, and more.
 
