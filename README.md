@@ -5,6 +5,7 @@
 `subdox` is a powerful CLI tool for managing and discovering domain information. With a range of commands, `subdox` simplifies domain discovery, API key management, and more.
 
 ## Installation
+## You need to have [Node Js](https://nodejs.org/en) 18 or plus to run the tool
 
 To install `subdox` globally, use npm:
 
@@ -87,3 +88,5 @@ For more details, check out the [GitHub repository](https://github.com/ocircleo/
 ## License
 
 This project is licensed under the MIT License.
+
+Author: Salman Hossain

@@ -12,7 +12,7 @@ const {
 
 const program = new Command();
 
-program.name("subdox").description("A simple CLI example").version("1.0.0");
+program.name("subdox").description("A simple CLI tool to find subdomains").version("1.0.1");
 
 program
   .command("test")
